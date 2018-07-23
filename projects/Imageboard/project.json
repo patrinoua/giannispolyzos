@@ -1,0 +1,19 @@
+{
+    "displayName": "Imageboard",
+    "description": "Users can upload pictures, description and comments.",
+    "tryMsg":"Upload pictures!",
+    "heroku_url":"https://imageboard-spiced.herokuapp.com",
+    "codeMsg":"Check out the code",
+    "github_url":"https://github.com/patrinoua/imageboard",
+    "createdWith":"Build with Vue.js & Express",
+    "comment": "",
+    "comment_link": "",
+    "comment_url": "",
+
+    "displayNameGr": "Πίνακας Φωτογραφιών",
+    "descriptionGr": "Ο χρήστης μπορεί να ανεβάσει εικόνες, περιγραφή και σχόλια",
+    "tryMsgGr":"Η σελίδα:",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση Vue.js & Express",
+    "commentGr":""
+}

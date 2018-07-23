@@ -1,0 +1,19 @@
+{
+    "displayName": "Spotify Search",
+    "description": "Conducting searches for artists and albums and displaying the results in a pleasing manner.",
+    "tryMsg":"Discover new music at",
+    "heroku_url":"https://spotify-spiced.herokuapp.com",
+    "codeMsg":"Check out the code",
+    "github_url":"https://github.com/patrinoua/spotify",
+    "createdWith":"Technologies used: HTML, CSS, Ajax",
+    "comment": "",
+    "comment_link": "",
+    "comment_url": "",
+
+    "displayNameGr": "Αναζήτηση στο Spotify",
+    "descriptionGr": "Πραγματοποιεί αναζήτηση για καλλιτέχνες ή Άλμπουμ και εμφανίζει τα αποτελέσματα με ωραίο τρόπο.",
+    "tryMsgGr":"Ανακαλύψτε νέα μουσική",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση HTML, CSS, Ajax",
+    "commentGr":""
+}

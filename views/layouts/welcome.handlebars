@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="keywords" content=" full stack developer, web developer, programmatistis,
+        istoselida, kataskeui istoselidas, προγραμματιστής, ιστοσελίδα, κατασκευή ιστοσελίδας,
+        δημιουργία ιστοσελίδας, δημιουργία ιστοσελίδας Βερολίνο, e-shop ">
+        <meta property="og:image" content="assets/DSC_2119-8.jpg" />
+        <meta property="og:description" content="Angeliki Patrinou | Full Stack Developer" />
+        <meta property="og:url"content="http://angeliki.herokuapp.com" />
+        <meta property="og:title" content="Angeliki Patrinou" />
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/blackdot.png" sizes="16x16">
+        <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Jannis Polyzos</title>
+    </head>
+    <style>
+        *{
+            font-family: {{content.myFont}}
+        }
+    </style>
+    <main>
+        <div id="header">
+            <div id="navigation">
+                <div class="container">
+                    <div class="navigationBar">
+                        <div class="navigationName">
+                            {{content.name}}
+                        </div>
+                        <div class="menuItems">
+                            <a class="menuItem" href="#aboutAngeliki" style="color:rgba(255,255,255,0.8)">
+                                {{content.about}}
+                            </a>
+                            <!-- <a class="menuItem" href="#projectsBlock" style="color:rgba(255,255,255,0.8)">
+                                {{content.work}}
+                            </a> -->
+                            <a class="menuItem" href="#contactBlock" style="color:rgba(255,255,255,0.8)">
+                                {{content.contact}}
+                            </a>
+                            <!-- <div class="borderLine menuItem">
+                            </div> -->
+                            <a href="/" class="languageItem" style="color:rgba(255,255,255,0.8);">EN</a> |
+                            <a href="gr" class="languageItem" style="color:rgba(255,255,255,0.8);">GR</a>
+                            <!-- <a href="de" class="languageItem" style="color:rgba(255,255,255,0.8);"> | DE</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="aboutMeSection">
+                <div class="container">
+                    <div class="slideshow_caption">
+                        <h2>{{content.title}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="aboutAngeliki">
+            <div class="container">
+                <div class="aboutAngelikiBlock">
+                    <div class="contentTitle">
+                        {{content.about}}
+                    </div>
+                    <div class="aboutAngelikiContent">
+                        <div class="aboutAngelikiPicture">
+                        </div>
+                        <div class="aboutAngelikiContentRight">
+                            {{content.personalDescription}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projectsBlock">
+            <!-- <div class="contentTitle textContainer">
+                Projects
+            </div> -->
+            <!-- {{{body}}} -->
+        </div>
+        <div id="contactBlock">
+            <div class="contactForm">
+                <div class="contentTitleContact">
+                    {{content.contact}}
+                </div>
+                <!-- <div> email@gmail.com </div> -->
+                <div> +49 1579159667 </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                 Web Design & Development
+            </div>
+            <div >
+                <a href="http://angeliki.herokuapp.com" target="_blank" class="linkToAngeliki"> Angeliki Patrinou </a></span>
+            </div>
+        </div>
+
+        <script>
+            $('.menuItem').click(function(e){
+                e.preventDefault();
+                let navigationTarget = '#'+e.target.href.split("#").pop();
+                let navigationTargetSelector=$(navigationTarget);
+                $('html, body').animate({
+                    scrollTop: $(navigationTarget).offset().top
+                }, "slow");
+            });
+        </script>
+    </main>
+</html>

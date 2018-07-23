@@ -1,0 +1,19 @@
+{
+    "displayName": "Connect 4",
+    "description": "Connect 4 is an application with a minimalist design and transitions.",
+    "tryMsg":"Play at",
+    "codeMsg":"Check out the code",
+    "createdWith":"Created with JavaScript & jQuery",
+    "heroku_url":"https://connect4-spiced.herokuapp.com",
+    "github_url":"https://github.com/patrinoua/connect4",
+    "comment": "",
+    "comment_link": "",
+    "comment_url": "",
+
+    "displayNameGr": "Σκορ 4",
+    "descriptionGr": "Το γνωστό παιχνίδι με ωραία γραφικά.",
+    "tryMsgGr":"Παίξτε εδώ",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση JavaScript & jQuery",
+    "commentGr":""
+}
