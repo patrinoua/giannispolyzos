@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "express_handlebars.js",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -16,5 +15,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrinoua/giannispolyzos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrinoua/giannispolyzos/issues"
+  },
+  "homepage": "https://github.com/patrinoua/giannispolyzos#readme",
+  "description": ""
 }
